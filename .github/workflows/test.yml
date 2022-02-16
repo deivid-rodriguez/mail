@@ -2,7 +2,7 @@ name: RSpec tests
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, fix-ci ]
   pull_request:
     branches: [ master ]
 

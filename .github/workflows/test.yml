@@ -2,9 +2,9 @@ name: RSpec tests
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, support-range ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, support-range ]
 
 jobs:
   ruby:

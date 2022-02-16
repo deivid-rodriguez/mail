@@ -18,6 +18,7 @@ jobs:
          - docker-image: 'library/ruby:2.6'
          - docker-image: 'library/ruby:2.7'
          - docker-image: 'library/ruby:3.0'
+         - docker-image: 'library/ruby:3.1'
          - docker-image: 'bitnami/jruby:latest'
     container: ${{ matrix.docker-image }}
     steps:

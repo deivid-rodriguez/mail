@@ -34,3 +34,5 @@ elsif RUBY_VERSION >= '1.9'
 else
   gem 'ruby-debug', :platforms => :mri
 end
+
+gem "psych", "< 4"
